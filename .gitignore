@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+opus_books_weights/
+*_weights/
+weights/
+
+# Trained tokenizers (regenerated on first run)
+tokenizer_*.json
+
+# TensorBoard logs / experiment runs
+runs/
+
+# Datasets / cache
+data/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
